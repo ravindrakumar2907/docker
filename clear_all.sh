@@ -34,3 +34,4 @@ echo '####################################################'
 echo 'Revoming docker container volumes (if any)'
 echo '####################################################'
 docker volume rm $(docker volume ls -q)
+
